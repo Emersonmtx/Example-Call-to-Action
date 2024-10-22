@@ -1,0 +1,40 @@
+:root {
+    --cor-principal: darkslateblue;
+    --cor-secundaria: grey;
+    --call-to-action: black;
+    --cor-de-fundo: white;
+
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url('../img/img_background.jpg'); /* sla nao ta indo essa bagaça  -_- */
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: contain;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__buttom {
+
+background-color: var(--call-to-action);
+border-radius: 5px;
+color: var(--cor-secundaria);
+display: block;
+}
+
+.buttom_secundario {
+    background-color: transparent;
+    border:  2px solid var(--cor-principal);
+}
